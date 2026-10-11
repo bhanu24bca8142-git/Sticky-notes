@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home-container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sticky-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.sticky {
+    width: 250px;
+    height: auto;
+    object-fit: contain;
+}
+
+.get-started {
+    width: 260px;
+    height: auto;
+    object-fit: contain;
+    cursor: pointer;
+}
